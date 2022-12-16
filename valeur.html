@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr" style="scroll-behavior: smooth;" data-fr-scheme="system">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS DSFR -->
+    <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/dsfr/dsfr.min.css">
+    <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/dsfr/utility.min.css">
+    <!-- icon Gouvernement -->
+    <link rel=" apple-touch-icon" href="/valo_these_remi_ghpages/static/valorisation/favicon/apple-touch-icon.png">
+    <!-- 180×180 -->
+    <link rel="icon" href="/valo_these_remi_ghpages/static/valorisation/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/valo_these_remi_ghpages/static/valorisation/favicon/favicon.ico"
+        type="image/x-icon"><!-- 32×32 -->
+    <link rel="manifest" href="/valo_these_remi_ghpages/static/valorisation/favicon/manifest.webmanifest"
+        crossorigin="use-credentials">
+
+    <title>Valeur de marché des logements | Base de données propriétaires</title>
+</head>
+
+<body>
+    <header role="banner" class="fr-header">
+        <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                    <div class="fr-header__brand fr-enlarge-link">
+                        <div class="fr-header__brand-top">
+                            <div class="fr-header__logo">
+                                <p class="fr-logo">
+                                    République
+                                    <br>Française
+                                </p>
+                            </div>
+                            <div class="fr-header__navbar">
+                                <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-476"
+                                    aria-haspopup="menu" id="button-477" title="Menu">
+                                    Menu
+                                </button>
+                            </div>
+                        </div>
+                        <div class="fr-header__service">
+                            <a href="/valo_these_remi_ghpages/"
+                                title="Accueil - Base de données propriétaires - Cerema">
+                                <p class="fr-header__service-title">
+                                    Base de données propriétaires
+                                </p>
+                            </a>
+                            <p class="fr-header__service-tagline">Une nouvelle base de données issue des données
+                                foncières</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fr-header__menu fr-modal" id="modal-476" aria-labelledby="button-477">
+            <div class="fr-container">
+                <button class="fr-btn--close fr-btn" aria-controls="modal-476" title="Fermer">
+                    Fermer
+                </button>
+                <div class="fr-header__menu-links">
+                </div>
+                <nav class="fr-nav" id="navigation-478" role="navigation" aria-label="Menu principal">
+                    <ul class="fr-nav__list">
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/valo_these_remi_ghpages/" target="_self"
+                                title="Accueil | Base de données propriétaires">Accueil</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/valo_these_remi_ghpages/propriete.html" target="_self"
+                                title="Propriété des logements | Base de données propriétaires">Propriété
+                                des
+                                logements</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/valo_these_remi_ghpages/valeur.html" target="_self" title="Valeur de marché des
+                                logements | Base de données propriétaires" aria-current="true">Valeur de
+                                marché des logements</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/valo_these_remi_ghpages/mutations.html" target="_self"
+                                title="Types de mutations | Base de données propriétaires">Types de
+                                mutations</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <a class="fr-nav__link" href="/valo_these_remi_ghpages/nouveaux-proprietaires.html"
+                                target="_self" title="Nouveaux
+                                propriétaires | Base de données propriétaires">Nouveaux
+                                propriétaires</a>
+                        </li>
+                        <li class="fr-nav__item">
+                            <button class="fr-nav__btn" aria-expanded="false"
+                                aria-controls="mega-menu-777">Ressources</button>
+                            <div class="fr-collapse fr-mega-menu" id="mega-menu-777" tabindex="-1">
+                                <div class="fr-container fr-container--fluid fr-container-lg">
+                                    <button class="fr-link--close fr-link" aria-controls="mega-menu-777">Fermer</button>
+                                    <div class="fr-grid-row fr-grid-row-lg--gutters">
+                                        <div class="fr-col-12 fr-col-lg-8 fr-col-offset-lg-4--right fr-mb-4v">
+                                            <div class="fr-mega-menu__leader">
+                                                <h4 class="fr-h4 fr-mb-2v">Méthodologie et ressources</h4>
+                                                <p class="fr-hidden fr-displayed-lg">Une note méthodologique comprenant
+                                                    l’ensemble des choix retenus pour produire ces données est
+                                                    disponible. De plus, le détail des tables importantes produites est
+                                                    accessible, ainsi que le détail des variables.</p>
+                                                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right fr-link--align-on-content"
+                                                    href="/valo_these_remi_ghpages/ressources.html">Voir toute la
+                                                    rubrique</a>
+                                            </div>
+                                        </div>
+                                        <div class="fr-col-12 fr-col-lg-3">
+                                            <h5 class="fr-mega-menu__category">
+                                                <a class="fr-nav__link"
+                                                    href="/valo_these_remi_ghpages/ressources.html#notice"
+                                                    target="_self">Notice
+                                                    méthodologique</a>
+                                            </h5>
+                                            <ul class="fr-mega-menu__list">
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/methode/identifiant.html"
+                                                        target="_self">Identifiant
+                                                        national</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/methode/prix.html"
+                                                        target="_self">Modélisation des
+                                                        prix</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/methode/transferts.html"
+                                                        target="_self">Identification des
+                                                        transferts</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/methode/telecharger-notice.html"
+                                                        target="_self">Télécharger la
+                                                        notice</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="fr-col-12 fr-col-lg-3">
+                                            <h5 class="fr-mega-menu__category">
+                                                <a class="fr-nav__link"
+                                                    href="/valo_these_remi_ghpages/ressources.html#tables"
+                                                    target="_self">Tables en détail</a>
+                                            </h5>
+                                            <ul class="fr-mega-menu__list">
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/tables/logement-proprietaire.html"
+                                                        target="_self">Logement -
+                                                        propriétaire</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/tables/valeur-logement.html"
+                                                        target="_self">Valeur
+                                                        des
+                                                        logements</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/tables/panel-proprietaire.html"
+                                                        target="_self">Panel
+                                                        propriétaire</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/tables/panel-logement.html"
+                                                        target="_self">Panel
+                                                        logement</a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link"
+                                                        href="/valo_these_remi_ghpages/ressources/tables/changement-proprietaire.html"
+                                                        target="_self">Changement de
+                                                        propriétaire</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/css/rubrique_extra.css">
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <!-- Leaflet -->
+
+    <link rel="stylesheet"
+        href="/valo_these_remi_ghpages/static/valorisation/modules/leaflet%401.9.2/dist/leaflet.css" />
+    <script src="/valo_these_remi_ghpages/static/valorisation/modules/leaflet%401.9.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/css/leaflet_extra.css" />
+    <div class="fr-container fr-my-5w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :"> <button class="fr-breadcrumb__button"
+                aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil d’Ariane</button>
+            <div class="fr-collapse" id="breadcrumb-1">
+                <ol class="fr-breadcrumb__list">
+                    <li> <a class="fr-breadcrumb__link" href="/">Accueil</a> </li>
+                    <li> <a class="fr-breadcrumb__link" aria-current="page">Valeur de marché des logements</a> </li>
+                </ol>
+            </div>
+        </nav>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <h1>Valeur de marché des logements</h1>
+                <p>Pour compléter et enrichir la connaissance du patrimoine immobilier, un <b>modèle de prix</b>
+                    permettant d’estimer la valeur de marché de l’ensemble des logements a été construit, à partir des
+                    données DV3F qui renseignent de manière exhaustive sur les transactions (prix
+                    et caractéristiques des logements). À chaque
+                    logement présent dans les Fichiers fonciers, on affecte une valeur correspondant selon ce modèle à
+                    sa
+                    valeur de marché pour chaque année disponible (de 2012 à 2019). Pour plus de détails sur la
+                    constitution
+                    de ce modèle et sur ses performances, consultez la <a
+                        href="/valo_these_remi_ghpages/ressources.html"
+                        title="Ressources | Base de données propriétaires">notice
+                        méthodologique et ressources.</a></p>
+                <p>Cela permet de connaître non seulement le nombre de logements possédés par un propriétaire personne
+                    physique mais aussi la valeur de ce patrimoine.</p>
+                <div class="fr-highlight">
+                    <p class="fr-text--lg"><b>Attention</b> : la base ne porte que sur les propriétaires personnes
+                        physiques. Les propriétaires
+                        personnes
+                        morales, qui incluent les Sociétés Civiles Immobilières (SCI), ne sont pas pris en compte. La
+                        base
+                        minore donc le
+                        patrimoine
+                        des propriétaires personnes physiques qui sont par ailleurs propriétaires par l’intermédiaire de
+                        SCI.
+                        Les SCI disposent d’un droit de propriété sur environ 5 % des logements en France
+                        Métropolitaine.
+                    </p>
+                </div>
+                <h2 class="fr-mt-3w">Évolutions de la valeur et du patrimoine</h2>
+                <h3>Valeur estimée</h3>
+                <div>
+                    <div id="809286c5-a75e-467a-adf5-9c3b07bcfeb5" class="plotly-graph-div"
+                        style="height:100%; width:100%;"></div>
+                    <script
+                        type="text/javascript">                                    window.PLOTLYENV = window.PLOTLYENV || {}; if (document.getElementById("809286c5-a75e-467a-adf5-9c3b07bcfeb5")) { Plotly.newPlot("809286c5-a75e-467a-adf5-9c3b07bcfeb5", [{ "alignmentgroup": "True", "customdata": [["Entre 0 et 100 \u20ac/m\u00b2"], ["Entre 100 et 200 \u20ac/m\u00b2"], ["Entre 200 et 300 \u20ac/m\u00b2"], ["Entre 300 et 400 \u20ac/m\u00b2"], ["Entre 400 et 500 \u20ac/m\u00b2"], ["Entre 500 et 600 \u20ac/m\u00b2"], ["Entre 600 et 700 \u20ac/m\u00b2"], ["Entre 700 et 800 \u20ac/m\u00b2"], ["Entre 800 et 900 \u20ac/m\u00b2"], ["Entre 900 et 1000 \u20ac/m\u00b2"], ["Entre 1000 et 1100 \u20ac/m\u00b2"], ["Entre 1100 et 1200 \u20ac/m\u00b2"], ["Entre 1200 et 1300 \u20ac/m\u00b2"], ["Entre 1300 et 1400 \u20ac/m\u00b2"], ["Entre 1400 et 1500 \u20ac/m\u00b2"], ["Entre 1500 et 1600 \u20ac/m\u00b2"], ["Entre 1600 et 1700 \u20ac/m\u00b2"], ["Entre 1700 et 1800 \u20ac/m\u00b2"], ["Entre 1800 et 1900 \u20ac/m\u00b2"], ["Entre 1900 et 2000 \u20ac/m\u00b2"], ["Entre 2000 et 2100 \u20ac/m\u00b2"], ["Entre 2100 et 2200 \u20ac/m\u00b2"], ["Entre 2200 et 2300 \u20ac/m\u00b2"], ["Entre 2300 et 2400 \u20ac/m\u00b2"], ["Entre 2400 et 2500 \u20ac/m\u00b2"], ["Entre 2500 et 2600 \u20ac/m\u00b2"], ["Entre 2600 et 2700 \u20ac/m\u00b2"], ["Entre 2700 et 2800 \u20ac/m\u00b2"], ["Entre 2800 et 2900 \u20ac/m\u00b2"], ["Entre 2900 et 3000 \u20ac/m\u00b2"], ["Entre 3000 et 3100 \u20ac/m\u00b2"], ["Entre 3100 et 3200 \u20ac/m\u00b2"], ["Entre 3200 et 3300 \u20ac/m\u00b2"], ["Entre 3300 et 3400 \u20ac/m\u00b2"], ["Entre 3400 et 3500 \u20ac/m\u00b2"], ["Entre 3500 et 3600 \u20ac/m\u00b2"], ["Entre 3600 et 3700 \u20ac/m\u00b2"], ["Entre 3700 et 3800 \u20ac/m\u00b2"], ["Entre 3800 et 3900 \u20ac/m\u00b2"], ["Entre 3900 et 4000 \u20ac/m\u00b2"], ["Entre 4000 et 4100 \u20ac/m\u00b2"], ["Entre 4100 et 4200 \u20ac/m\u00b2"], ["Entre 4200 et 4300 \u20ac/m\u00b2"], ["Entre 4300 et 4400 \u20ac/m\u00b2"], ["Entre 4400 et 4500 \u20ac/m\u00b2"], ["Entre 4500 et 4600 \u20ac/m\u00b2"], ["Entre 4600 et 4700 \u20ac/m\u00b2"], ["Entre 4700 et 4800 \u20ac/m\u00b2"], ["Entre 4800 et 4900 \u20ac/m\u00b2"], ["Entre 4900 et 5000 \u20ac/m\u00b2"], ["Entre 5000 et 5100 \u20ac/m\u00b2"], ["Entre 5100 et 5200 \u20ac/m\u00b2"], ["Entre 5200 et 5300 \u20ac/m\u00b2"], ["Entre 5300 et 5400 \u20ac/m\u00b2"], ["Entre 5400 et 5500 \u20ac/m\u00b2"], ["Entre 5500 et 5600 \u20ac/m\u00b2"], ["Entre 5600 et 5700 \u20ac/m\u00b2"], ["Entre 5700 et 5800 \u20ac/m\u00b2"], ["Entre 5800 et 5900 \u20ac/m\u00b2"], ["Entre 5900 et 6000 \u20ac/m\u00b2"], ["Entre 6000 et 6100 \u20ac/m\u00b2"], ["Entre 6100 et 6200 \u20ac/m\u00b2"], ["Entre 6200 et 6300 \u20ac/m\u00b2"], ["Entre 6300 et 6400 \u20ac/m\u00b2"], ["Entre 6400 et 6500 \u20ac/m\u00b2"], ["Entre 6500 et 6600 \u20ac/m\u00b2"], ["Entre 6600 et 6700 \u20ac/m\u00b2"], ["Entre 6700 et 6800 \u20ac/m\u00b2"], ["Entre 6800 et 6900 \u20ac/m\u00b2"], ["Entre 6900 et 7000 \u20ac/m\u00b2"], ["Entre 7000 et 7100 \u20ac/m\u00b2"], ["Entre 7100 et 7200 \u20ac/m\u00b2"], ["Entre 7200 et 7300 \u20ac/m\u00b2"], ["Entre 7300 et 7400 \u20ac/m\u00b2"], ["Entre 7400 et 7500 \u20ac/m\u00b2"], ["Entre 7500 et 7600 \u20ac/m\u00b2"], ["Entre 7600 et 7700 \u20ac/m\u00b2"], ["Entre 7700 et 7800 \u20ac/m\u00b2"], ["Entre 7800 et 7900 \u20ac/m\u00b2"], ["Entre 7900 et 8000 \u20ac/m\u00b2"], ["Entre 8000 et 8100 \u20ac/m\u00b2"], ["Entre 8100 et 8200 \u20ac/m\u00b2"], ["Entre 8200 et 8300 \u20ac/m\u00b2"], ["Entre 8300 et 8400 \u20ac/m\u00b2"], ["Entre 8400 et 8500 \u20ac/m\u00b2"], ["Entre 8500 et 8600 \u20ac/m\u00b2"], ["Entre 8600 et 8700 \u20ac/m\u00b2"], ["Entre 8700 et 8800 \u20ac/m\u00b2"], ["Entre 8800 et 8900 \u20ac/m\u00b2"], ["Entre 8900 et 9000 \u20ac/m\u00b2"], ["Entre 9000 et 9100 \u20ac/m\u00b2"], ["Entre 9100 et 9200 \u20ac/m\u00b2"], ["Entre 9200 et 9300 \u20ac/m\u00b2"], ["Entre 9300 et 9400 \u20ac/m\u00b2"], ["Entre 9400 et 9500 \u20ac/m\u00b2"], ["Entre 9500 et 9600 \u20ac/m\u00b2"], ["Entre 9600 et 9700 \u20ac/m\u00b2"], ["Entre 9700 et 9800 \u20ac/m\u00b2"], ["Entre 9800 et 9900 \u20ac/m\u00b2"], ["Entre 9900 et 10000 \u20ac/m\u00b2"], ["Entre 10000 et 10100 \u20ac/m\u00b2"], ["Entre 10100 et 10200 \u20ac/m\u00b2"], ["Entre 10200 et 10300 \u20ac/m\u00b2"], ["Entre 10300 et 10400 \u20ac/m\u00b2"], ["Entre 10400 et 10500 \u20ac/m\u00b2"], ["Entre 10500 et 10600 \u20ac/m\u00b2"], ["Entre 10600 et 10700 \u20ac/m\u00b2"], ["Entre 10700 et 10800 \u20ac/m\u00b2"], ["Entre 10800 et 10900 \u20ac/m\u00b2"], ["Entre 10900 et 11000 \u20ac/m\u00b2"], ["Entre 11000 et 11100 \u20ac/m\u00b2"], ["Entre 11100 et 11200 \u20ac/m\u00b2"], ["Entre 11200 et 11300 \u20ac/m\u00b2"], ["Entre 11300 et 11400 \u20ac/m\u00b2"], ["Entre 11400 et 11500 \u20ac/m\u00b2"], ["Entre 11500 et 11600 \u20ac/m\u00b2"], ["Entre 11600 et 11700 \u20ac/m\u00b2"], ["Entre 11700 et 11800 \u20ac/m\u00b2"], ["Entre 11800 et 11900 \u20ac/m\u00b2"], ["Entre 11900 et 12000 \u20ac/m\u00b2"], ["Entre 12000 et 12100 \u20ac/m\u00b2"], ["Entre 12100 et 12200 \u20ac/m\u00b2"], ["Entre 12200 et 12300 \u20ac/m\u00b2"], ["Entre 12300 et 12400 \u20ac/m\u00b2"], ["Entre 12400 et 12500 \u20ac/m\u00b2"], ["Entre 12500 et 12600 \u20ac/m\u00b2"], ["Entre 12600 et 12700 \u20ac/m\u00b2"], ["Entre 12700 et 12800 \u20ac/m\u00b2"], ["Entre 12800 et 12900 \u20ac/m\u00b2"], ["Entre 12900 et 13000 \u20ac/m\u00b2"], ["Entre 13000 et 13100 \u20ac/m\u00b2"], ["Entre 13100 et 13200 \u20ac/m\u00b2"], ["Entre 13200 et 13300 \u20ac/m\u00b2"], ["Entre 13300 et 13400 \u20ac/m\u00b2"], ["Entre 13400 et 13500 \u20ac/m\u00b2"], ["Entre 13500 et 13600 \u20ac/m\u00b2"], ["Entre 13600 et 13700 \u20ac/m\u00b2"], ["Entre 13700 et 13800 \u20ac/m\u00b2"], ["Entre 13800 et 13900 \u20ac/m\u00b2"], ["Entre 13900 et 14000 \u20ac/m\u00b2"], ["Entre 14000 et 14100 \u20ac/m\u00b2"], ["Entre 14100 et 14200 \u20ac/m\u00b2"], ["Entre 14200 et 14300 \u20ac/m\u00b2"], ["Entre 14300 et 14400 \u20ac/m\u00b2"], ["Entre 14400 et 14500 \u20ac/m\u00b2"], ["Entre 14500 et 14600 \u20ac/m\u00b2"], ["Entre 14600 et 14700 \u20ac/m\u00b2"], ["Entre 14700 et 14800 \u20ac/m\u00b2"], ["Entre 14800 et 14900 \u20ac/m\u00b2"], ["Entre 14900 et 15000 \u20ac/m\u00b2"]], "hovertemplate": "<b>2011</b><br><b>%{customdata[0]}</b><br>Nombre de logements : %{y}<extra></extra>", "legendgroup": "count_2011", "marker": { "color": "#735D78", "pattern": { "shape": "" } }, "name": "2011", "offsetgroup": "count_2011", "orientation": "v", "showlegend": true, "textposition": "auto", "x": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600, 5700, 5800, 5900, 6000, 6100, 6200, 6300, 6400, 6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900, 8000, 8100, 8200, 8300, 8400, 8500, 8600, 8700, 8800, 8900, 9000, 9100, 9200, 9300, 9400, 9500, 9600, 9700, 9800, 9900, 10000, 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500, 11600, 11700, 11800, 11900, 12000, 12100, 12200, 12300, 12400, 12500, 12600, 12700, 12800, 12900, 13000, 13100, 13200, 13300, 13400, 13500, 13600, 13700, 13800, 13900, 14000, 14100, 14200, 14300, 14400, 14500, 14600, 14700, 14800, 14900], "xaxis": "x", "y": [296, 1794, 7171, 32757, 56077, 59704, 122259, 265578, 558656, 963020, 1445659, 1755030, 1962357, 1934686, 1869825, 1690206, 1516423, 1442175, 1303928, 1238941, 1088367, 983297, 906403, 906808, 827763, 798608, 748168, 650498, 613826, 571054, 506096, 464599, 413278, 392608, 331207, 306391, 285603, 261296, 233667, 205930, 192752, 184910, 152477, 144898, 128313, 139308, 102093, 107848, 88970, 80240, 83706, 83848, 65126, 74543, 68557, 59629, 59438, 58240, 57692, 64181, 56602, 57724, 52779, 52748, 53248, 52383, 51024, 50659, 48728, 56049, 46367, 44610, 42978, 42534, 42633, 41867, 40561, 40022, 38829, 37620, 36405, 34220, 31892, 30674, 29164, 27145, 25935, 23912, 22346, 20595, 18766, 17377, 15720, 13960, 12866, 11082, 10260, 9139, 7431, 6803, 5878, 4826, 4308, 3351, 2949, 2314, 1823, 1277, 1127, 845, 565, 428, 285, 182, 163, 142, 117, 64, 797, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "yaxis": "y", "type": "bar", "opacity": 0.9 }, { "alignmentgroup": "True", "customdata": [["Entre 0 et 100 \u20ac/m\u00b2"], ["Entre 100 et 200 \u20ac/m\u00b2"], ["Entre 200 et 300 \u20ac/m\u00b2"], ["Entre 300 et 400 \u20ac/m\u00b2"], ["Entre 400 et 500 \u20ac/m\u00b2"], ["Entre 500 et 600 \u20ac/m\u00b2"], ["Entre 600 et 700 \u20ac/m\u00b2"], ["Entre 700 et 800 \u20ac/m\u00b2"], ["Entre 800 et 900 \u20ac/m\u00b2"], ["Entre 900 et 1000 \u20ac/m\u00b2"], ["Entre 1000 et 1100 \u20ac/m\u00b2"], ["Entre 1100 et 1200 \u20ac/m\u00b2"], ["Entre 1200 et 1300 \u20ac/m\u00b2"], ["Entre 1300 et 1400 \u20ac/m\u00b2"], ["Entre 1400 et 1500 \u20ac/m\u00b2"], ["Entre 1500 et 1600 \u20ac/m\u00b2"], ["Entre 1600 et 1700 \u20ac/m\u00b2"], ["Entre 1700 et 1800 \u20ac/m\u00b2"], ["Entre 1800 et 1900 \u20ac/m\u00b2"], ["Entre 1900 et 2000 \u20ac/m\u00b2"], ["Entre 2000 et 2100 \u20ac/m\u00b2"], ["Entre 2100 et 2200 \u20ac/m\u00b2"], ["Entre 2200 et 2300 \u20ac/m\u00b2"], ["Entre 2300 et 2400 \u20ac/m\u00b2"], ["Entre 2400 et 2500 \u20ac/m\u00b2"], ["Entre 2500 et 2600 \u20ac/m\u00b2"], ["Entre 2600 et 2700 \u20ac/m\u00b2"], ["Entre 2700 et 2800 \u20ac/m\u00b2"], ["Entre 2800 et 2900 \u20ac/m\u00b2"], ["Entre 2900 et 3000 \u20ac/m\u00b2"], ["Entre 3000 et 3100 \u20ac/m\u00b2"], ["Entre 3100 et 3200 \u20ac/m\u00b2"], ["Entre 3200 et 3300 \u20ac/m\u00b2"], ["Entre 3300 et 3400 \u20ac/m\u00b2"], ["Entre 3400 et 3500 \u20ac/m\u00b2"], ["Entre 3500 et 3600 \u20ac/m\u00b2"], ["Entre 3600 et 3700 \u20ac/m\u00b2"], ["Entre 3700 et 3800 \u20ac/m\u00b2"], ["Entre 3800 et 3900 \u20ac/m\u00b2"], ["Entre 3900 et 4000 \u20ac/m\u00b2"], ["Entre 4000 et 4100 \u20ac/m\u00b2"], ["Entre 4100 et 4200 \u20ac/m\u00b2"], ["Entre 4200 et 4300 \u20ac/m\u00b2"], ["Entre 4300 et 4400 \u20ac/m\u00b2"], ["Entre 4400 et 4500 \u20ac/m\u00b2"], ["Entre 4500 et 4600 \u20ac/m\u00b2"], ["Entre 4600 et 4700 \u20ac/m\u00b2"], ["Entre 4700 et 4800 \u20ac/m\u00b2"], ["Entre 4800 et 4900 \u20ac/m\u00b2"], ["Entre 4900 et 5000 \u20ac/m\u00b2"], ["Entre 5000 et 5100 \u20ac/m\u00b2"], ["Entre 5100 et 5200 \u20ac/m\u00b2"], ["Entre 5200 et 5300 \u20ac/m\u00b2"], ["Entre 5300 et 5400 \u20ac/m\u00b2"], ["Entre 5400 et 5500 \u20ac/m\u00b2"], ["Entre 5500 et 5600 \u20ac/m\u00b2"], ["Entre 5600 et 5700 \u20ac/m\u00b2"], ["Entre 5700 et 5800 \u20ac/m\u00b2"], ["Entre 5800 et 5900 \u20ac/m\u00b2"], ["Entre 5900 et 6000 \u20ac/m\u00b2"], ["Entre 6000 et 6100 \u20ac/m\u00b2"], ["Entre 6100 et 6200 \u20ac/m\u00b2"], ["Entre 6200 et 6300 \u20ac/m\u00b2"], ["Entre 6300 et 6400 \u20ac/m\u00b2"], ["Entre 6400 et 6500 \u20ac/m\u00b2"], ["Entre 6500 et 6600 \u20ac/m\u00b2"], ["Entre 6600 et 6700 \u20ac/m\u00b2"], ["Entre 6700 et 6800 \u20ac/m\u00b2"], ["Entre 6800 et 6900 \u20ac/m\u00b2"], ["Entre 6900 et 7000 \u20ac/m\u00b2"], ["Entre 7000 et 7100 \u20ac/m\u00b2"], ["Entre 7100 et 7200 \u20ac/m\u00b2"], ["Entre 7200 et 7300 \u20ac/m\u00b2"], ["Entre 7300 et 7400 \u20ac/m\u00b2"], ["Entre 7400 et 7500 \u20ac/m\u00b2"], ["Entre 7500 et 7600 \u20ac/m\u00b2"], ["Entre 7600 et 7700 \u20ac/m\u00b2"], ["Entre 7700 et 7800 \u20ac/m\u00b2"], ["Entre 7800 et 7900 \u20ac/m\u00b2"], ["Entre 7900 et 8000 \u20ac/m\u00b2"], ["Entre 8000 et 8100 \u20ac/m\u00b2"], ["Entre 8100 et 8200 \u20ac/m\u00b2"], ["Entre 8200 et 8300 \u20ac/m\u00b2"], ["Entre 8300 et 8400 \u20ac/m\u00b2"], ["Entre 8400 et 8500 \u20ac/m\u00b2"], ["Entre 8500 et 8600 \u20ac/m\u00b2"], ["Entre 8600 et 8700 \u20ac/m\u00b2"], ["Entre 8700 et 8800 \u20ac/m\u00b2"], ["Entre 8800 et 8900 \u20ac/m\u00b2"], ["Entre 8900 et 9000 \u20ac/m\u00b2"], ["Entre 9000 et 9100 \u20ac/m\u00b2"], ["Entre 9100 et 9200 \u20ac/m\u00b2"], ["Entre 9200 et 9300 \u20ac/m\u00b2"], ["Entre 9300 et 9400 \u20ac/m\u00b2"], ["Entre 9400 et 9500 \u20ac/m\u00b2"], ["Entre 9500 et 9600 \u20ac/m\u00b2"], ["Entre 9600 et 9700 \u20ac/m\u00b2"], ["Entre 9700 et 9800 \u20ac/m\u00b2"], ["Entre 9800 et 9900 \u20ac/m\u00b2"], ["Entre 9900 et 10000 \u20ac/m\u00b2"], ["Entre 10000 et 10100 \u20ac/m\u00b2"], ["Entre 10100 et 10200 \u20ac/m\u00b2"], ["Entre 10200 et 10300 \u20ac/m\u00b2"], ["Entre 10300 et 10400 \u20ac/m\u00b2"], ["Entre 10400 et 10500 \u20ac/m\u00b2"], ["Entre 10500 et 10600 \u20ac/m\u00b2"], ["Entre 10600 et 10700 \u20ac/m\u00b2"], ["Entre 10700 et 10800 \u20ac/m\u00b2"], ["Entre 10800 et 10900 \u20ac/m\u00b2"], ["Entre 10900 et 11000 \u20ac/m\u00b2"], ["Entre 11000 et 11100 \u20ac/m\u00b2"], ["Entre 11100 et 11200 \u20ac/m\u00b2"], ["Entre 11200 et 11300 \u20ac/m\u00b2"], ["Entre 11300 et 11400 \u20ac/m\u00b2"], ["Entre 11400 et 11500 \u20ac/m\u00b2"], ["Entre 11500 et 11600 \u20ac/m\u00b2"], ["Entre 11600 et 11700 \u20ac/m\u00b2"], ["Entre 11700 et 11800 \u20ac/m\u00b2"], ["Entre 11800 et 11900 \u20ac/m\u00b2"], ["Entre 11900 et 12000 \u20ac/m\u00b2"], ["Entre 12000 et 12100 \u20ac/m\u00b2"], ["Entre 12100 et 12200 \u20ac/m\u00b2"], ["Entre 12200 et 12300 \u20ac/m\u00b2"], ["Entre 12300 et 12400 \u20ac/m\u00b2"], ["Entre 12400 et 12500 \u20ac/m\u00b2"], ["Entre 12500 et 12600 \u20ac/m\u00b2"], ["Entre 12600 et 12700 \u20ac/m\u00b2"], ["Entre 12700 et 12800 \u20ac/m\u00b2"], ["Entre 12800 et 12900 \u20ac/m\u00b2"], ["Entre 12900 et 13000 \u20ac/m\u00b2"], ["Entre 13000 et 13100 \u20ac/m\u00b2"], ["Entre 13100 et 13200 \u20ac/m\u00b2"], ["Entre 13200 et 13300 \u20ac/m\u00b2"], ["Entre 13300 et 13400 \u20ac/m\u00b2"], ["Entre 13400 et 13500 \u20ac/m\u00b2"], ["Entre 13500 et 13600 \u20ac/m\u00b2"], ["Entre 13600 et 13700 \u20ac/m\u00b2"], ["Entre 13700 et 13800 \u20ac/m\u00b2"], ["Entre 13800 et 13900 \u20ac/m\u00b2"], ["Entre 13900 et 14000 \u20ac/m\u00b2"], ["Entre 14000 et 14100 \u20ac/m\u00b2"], ["Entre 14100 et 14200 \u20ac/m\u00b2"], ["Entre 14200 et 14300 \u20ac/m\u00b2"], ["Entre 14300 et 14400 \u20ac/m\u00b2"], ["Entre 14400 et 14500 \u20ac/m\u00b2"], ["Entre 14500 et 14600 \u20ac/m\u00b2"], ["Entre 14600 et 14700 \u20ac/m\u00b2"], ["Entre 14700 et 14800 \u20ac/m\u00b2"], ["Entre 14800 et 14900 \u20ac/m\u00b2"], ["Entre 14900 et 15000 \u20ac/m\u00b2"]], "hovertemplate": "<b>2019</b><br><b>%{customdata[0]}</b><br>Nombre de logements : %{y}<extra></extra>", "legendgroup": "count_2019", "marker": { "color": "#B392AC", "pattern": { "shape": "" } }, "name": "2019", "offsetgroup": "count_2019", "orientation": "v", "showlegend": true, "textposition": "auto", "x": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600, 5700, 5800, 5900, 6000, 6100, 6200, 6300, 6400, 6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900, 8000, 8100, 8200, 8300, 8400, 8500, 8600, 8700, 8800, 8900, 9000, 9100, 9200, 9300, 9400, 9500, 9600, 9700, 9800, 9900, 10000, 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500, 11600, 11700, 11800, 11900, 12000, 12100, 12200, 12300, 12400, 12500, 12600, 12700, 12800, 12900, 13000, 13100, 13200, 13300, 13400, 13500, 13600, 13700, 13800, 13900, 14000, 14100, 14200, 14300, 14400, 14500, 14600, 14700, 14800, 14900], "xaxis": "x", "y": [11990, 296, 35279, 34301, 39843, 104014, 155624, 394499, 843138, 1269213, 1643345, 1882872, 1909401, 1900332, 1787820, 1645317, 1523400, 1392035, 1273110, 1161814, 1058539, 966835, 904882, 866919, 814304, 769361, 708489, 722609, 676628, 595846, 574809, 537201, 515479, 462083, 413655, 384546, 350580, 322805, 307865, 271639, 243702, 228883, 224995, 189607, 184152, 181970, 136230, 129655, 122815, 108801, 87071, 84528, 79937, 72122, 66036, 78060, 64553, 57604, 49170, 51255, 62981, 55813, 49244, 42970, 65281, 40094, 41504, 40729, 40389, 41564, 40975, 41197, 41919, 41105, 40593, 42581, 42511, 41918, 40640, 41181, 40592, 40459, 39571, 39923, 39855, 38960, 38192, 38344, 37008, 35734, 36391, 34164, 35274, 34460, 33274, 32896, 32057, 31369, 30116, 28971, 28201, 27115, 25714, 23850, 22879, 21798, 20332, 19299, 18387, 16378, 14722, 13543, 12628, 11589, 10552, 9921, 8820, 7797, 6979, 6358, 5679, 4857, 4366, 3529, 2996, 2571, 2339, 2042, 1557, 1223, 1004, 702, 611, 476, 408, 372, 253, 230, 189, 163, 142, 129, 79, 69, 39, 33, 41, 24, 24, 624], "yaxis": "y", "type": "bar", "opacity": 0.9 }], { "template": { "data": { "histogram2dcontour": [{ "type": "histogram2dcontour", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "choropleth": [{ "type": "choropleth", "colorbar": { "outlinewidth": 0, "ticks": "" } }], "histogram2d": [{ "type": "histogram2d", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "heatmap": [{ "type": "heatmap", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "heatmapgl": [{ "type": "heatmapgl", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "contourcarpet": [{ "type": "contourcarpet", "colorbar": { "outlinewidth": 0, "ticks": "" } }], "contour": [{ "type": "contour", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "surface": [{ "type": "surface", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "mesh3d": [{ "type": "mesh3d", "colorbar": { "outlinewidth": 0, "ticks": "" } }], "scatter": [{ "fillpattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 }, "type": "scatter" }], "parcoords": [{ "type": "parcoords", "line": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatterpolargl": [{ "type": "scatterpolargl", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "bar": [{ "error_x": { "color": "#2a3f5f" }, "error_y": { "color": "#2a3f5f" }, "marker": { "line": { "color": "#E5ECF6", "width": 0.5 }, "pattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 } }, "type": "bar" }], "scattergeo": [{ "type": "scattergeo", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatterpolar": [{ "type": "scatterpolar", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "histogram": [{ "marker": { "pattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 } }, "type": "histogram" }], "scattergl": [{ "type": "scattergl", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatter3d": [{ "type": "scatter3d", "line": { "colorbar": { "outlinewidth": 0, "ticks": "" } }, "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scattermapbox": [{ "type": "scattermapbox", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatterternary": [{ "type": "scatterternary", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scattercarpet": [{ "type": "scattercarpet", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "carpet": [{ "aaxis": { "endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f" }, "baxis": { "endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f" }, "type": "carpet" }], "table": [{ "cells": { "fill": { "color": "#EBF0F8" }, "line": { "color": "white" } }, "header": { "fill": { "color": "#C8D4E3" }, "line": { "color": "white" } }, "type": "table" }], "barpolar": [{ "marker": { "line": { "color": "#E5ECF6", "width": 0.5 }, "pattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 } }, "type": "barpolar" }], "pie": [{ "automargin": true, "type": "pie" }] }, "layout": { "autotypenumbers": "strict", "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": { "color": "#2a3f5f" }, "hovermode": "closest", "hoverlabel": { "align": "left" }, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": { "bgcolor": "#E5ECF6", "angularaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" }, "radialaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" } }, "ternary": { "bgcolor": "#E5ECF6", "aaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" }, "baxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" }, "caxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" } }, "coloraxis": { "colorbar": { "outlinewidth": 0, "ticks": "" } }, "colorscale": { "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]] }, "xaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "", "title": { "standoff": 15 }, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2 }, "yaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "", "title": { "standoff": 15 }, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2 }, "scene": { "xaxis": { "backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2 }, "yaxis": { "backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2 }, "zaxis": { "backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2 } }, "shapedefaults": { "line": { "color": "#2a3f5f" } }, "annotationdefaults": { "arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1 }, "geo": { "bgcolor": "white", "landcolor": "#E5ECF6", "subunitcolor": "white", "showland": true, "showlakes": true, "lakecolor": "white" }, "title": { "x": 0.05 }, "mapbox": { "style": "light" } } }, "xaxis": { "anchor": "y", "domain": [0.0, 1.0], "title": { "text": "Valeur estim\u00e9e (\u20ac/m\u00b2)" }, "type": "category" }, "yaxis": { "anchor": "x", "domain": [0.0, 1.0], "title": { "text": "Nombre" } }, "legend": { "title": { "text": "Ann\u00e9e" }, "tracegroupgap": 0 }, "title": { "text": "Histogramme de la valeur des logements en France m\u00e9tropolitaine (donn\u00e9es 2019)" }, "barmode": "group" }, { "responsive": true }) };                            </script>
+                </div>
+                <p class="interpretation">Interprétation : en 2011, en France métropolitaine hors Alsace et Moselle, le
+                    nombre de logements dont
+                    la valeur estimée est comprise entre 1 200 et 1 300 €/m² s'élève à plus d'1,96 million. En 2019, le
+                    nombre de tels logements est de 1,91 million.</p>
+            </div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <h4>Valeur moyenne estimée des logements par commune en 2019</h4>
+                <div id="valueMap" style="height: 70vh; width: 100%;"></div>
+                <p class="interpretation">Interprétation : en 2019, à Bordeaux, le prix moyen estimé d'un logement était
+                    de
+                    3 942,41 €/m². Cette même année, le prix moyen estimé d'un logement à Reims était de 2 113,91 €/m².
+                    Les
+                    logements situés dans les départements 57, 67 et 68 ne peuvent pas faire l'objet d'une estimation en
+                    raison de l'absence de données DV3F pour cette zone géographique.</p>
+            </div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <h4>Taux de croissance annuel moyen estimé de la valeur des logements par commune entre
+                    2011 et 2019</h4>
+                <div id="growthMap" style="height: 70vh; width: 100%;"></div>
+                <p class="interpretation">Interprétation : à Rennes, le prix moyen estimé d'un logement était de 2
+                    950,39
+                    €/m² en 2019 et de 2 444,54 €/m² en 2011, soit un taux de croissance annuel moyen de 2,38 %.</p>
+            </div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <h3>Patrimoine estimé</h3>
+                <div>
+                    <div id="d3d89aa1-fe35-4a7d-888a-759c11451c9a" class="plotly-graph-div"
+                        style="height:100%; width:100%;"></div>
+                    <script
+                        type="text/javascript">                                    window.PLOTLYENV = window.PLOTLYENV || {}; if (document.getElementById("d3d89aa1-fe35-4a7d-888a-759c11451c9a")) { Plotly.newPlot("d3d89aa1-fe35-4a7d-888a-759c11451c9a", [{ "alignmentgroup": "True", "customdata": [["Entre 0 et 5000 \u20ac"], ["Entre 5000 et 10000 \u20ac"], ["Entre 10000 et 15000 \u20ac"], ["Entre 15000 et 20000 \u20ac"], ["Entre 20000 et 25000 \u20ac"], ["Entre 25000 et 30000 \u20ac"], ["Entre 30000 et 35000 \u20ac"], ["Entre 35000 et 40000 \u20ac"], ["Entre 40000 et 45000 \u20ac"], ["Entre 45000 et 50000 \u20ac"], ["Entre 50000 et 55000 \u20ac"], ["Entre 55000 et 60000 \u20ac"], ["Entre 60000 et 65000 \u20ac"], ["Entre 65000 et 70000 \u20ac"], ["Entre 70000 et 75000 \u20ac"], ["Entre 75000 et 80000 \u20ac"], ["Entre 80000 et 85000 \u20ac"], ["Entre 85000 et 90000 \u20ac"], ["Entre 90000 et 95000 \u20ac"], ["Entre 95000 et 100000 \u20ac"], ["Entre 100000 et 105000 \u20ac"], ["Entre 105000 et 110000 \u20ac"], ["Entre 110000 et 115000 \u20ac"], ["Entre 115000 et 120000 \u20ac"], ["Entre 120000 et 125000 \u20ac"], ["Entre 125000 et 130000 \u20ac"], ["Entre 130000 et 135000 \u20ac"], ["Entre 135000 et 140000 \u20ac"], ["Entre 140000 et 145000 \u20ac"], ["Entre 145000 et 150000 \u20ac"], ["Entre 150000 et 155000 \u20ac"], ["Entre 155000 et 160000 \u20ac"], ["Entre 160000 et 165000 \u20ac"], ["Entre 165000 et 170000 \u20ac"], ["Entre 170000 et 175000 \u20ac"], ["Entre 175000 et 180000 \u20ac"], ["Entre 180000 et 185000 \u20ac"], ["Entre 185000 et 190000 \u20ac"], ["Entre 190000 et 195000 \u20ac"], ["Entre 195000 et 200000 \u20ac"], ["Entre 200000 et 205000 \u20ac"], ["Entre 205000 et 210000 \u20ac"], ["Entre 210000 et 215000 \u20ac"], ["Entre 215000 et 220000 \u20ac"], ["Entre 220000 et 225000 \u20ac"], ["Entre 225000 et 230000 \u20ac"], ["Entre 230000 et 235000 \u20ac"], ["Entre 235000 et 240000 \u20ac"], ["Entre 240000 et 245000 \u20ac"], ["Entre 245000 et 250000 \u20ac"], ["Entre 250000 et 255000 \u20ac"], ["Entre 255000 et 260000 \u20ac"], ["Entre 260000 et 265000 \u20ac"], ["Entre 265000 et 270000 \u20ac"], ["Entre 270000 et 275000 \u20ac"], ["Entre 275000 et 280000 \u20ac"], ["Entre 280000 et 285000 \u20ac"], ["Entre 285000 et 290000 \u20ac"], ["Entre 290000 et 295000 \u20ac"], ["Entre 295000 et 300000 \u20ac"], ["Entre 300000 et 305000 \u20ac"], ["Entre 305000 et 310000 \u20ac"], ["Entre 310000 et 315000 \u20ac"], ["Entre 315000 et 320000 \u20ac"], ["Entre 320000 et 325000 \u20ac"], ["Entre 325000 et 330000 \u20ac"], ["Entre 330000 et 335000 \u20ac"], ["Entre 335000 et 340000 \u20ac"], ["Entre 340000 et 345000 \u20ac"], ["Entre 345000 et 350000 \u20ac"], ["Entre 350000 et 355000 \u20ac"], ["Entre 355000 et 360000 \u20ac"], ["Entre 360000 et 365000 \u20ac"], ["Entre 365000 et 370000 \u20ac"], ["Entre 370000 et 375000 \u20ac"], ["Entre 375000 et 380000 \u20ac"], ["Entre 380000 et 385000 \u20ac"], ["Entre 385000 et 390000 \u20ac"], ["Entre 390000 et 395000 \u20ac"], ["Entre 395000 et 400000 \u20ac"], ["Entre 400000 et 405000 \u20ac"], ["Entre 405000 et 410000 \u20ac"], ["Entre 410000 et 415000 \u20ac"], ["Entre 415000 et 420000 \u20ac"], ["Entre 420000 et 425000 \u20ac"], ["Entre 425000 et 430000 \u20ac"], ["Entre 430000 et 435000 \u20ac"], ["Entre 435000 et 440000 \u20ac"], ["Entre 440000 et 445000 \u20ac"], ["Entre 445000 et 450000 \u20ac"], ["Entre 450000 et 455000 \u20ac"], ["Entre 455000 et 460000 \u20ac"], ["Entre 460000 et 465000 \u20ac"], ["Entre 465000 et 470000 \u20ac"], ["Entre 470000 et 475000 \u20ac"], ["Entre 475000 et 480000 \u20ac"], ["Entre 480000 et 485000 \u20ac"], ["Entre 485000 et 490000 \u20ac"], ["Entre 490000 et 495000 \u20ac"], ["Entre 495000 et 500000 \u20ac"], ["Entre 500000 et 505000 \u20ac"], ["Entre 505000 et 510000 \u20ac"], ["Entre 510000 et 515000 \u20ac"], ["Entre 515000 et 520000 \u20ac"], ["Entre 520000 et 525000 \u20ac"], ["Entre 525000 et 530000 \u20ac"], ["Entre 530000 et 535000 \u20ac"], ["Entre 535000 et 540000 \u20ac"], ["Entre 540000 et 545000 \u20ac"], ["Entre 545000 et 550000 \u20ac"], ["Entre 550000 et 555000 \u20ac"], ["Entre 555000 et 560000 \u20ac"], ["Entre 560000 et 565000 \u20ac"], ["Entre 565000 et 570000 \u20ac"], ["Entre 570000 et 575000 \u20ac"], ["Entre 575000 et 580000 \u20ac"], ["Entre 580000 et 585000 \u20ac"], ["Entre 585000 et 590000 \u20ac"], ["Entre 590000 et 595000 \u20ac"], ["Entre 595000 et 600000 \u20ac"], ["Entre 600000 et 605000 \u20ac"], ["Entre 605000 et 610000 \u20ac"], ["Entre 610000 et 615000 \u20ac"], ["Entre 615000 et 620000 \u20ac"], ["Entre 620000 et 625000 \u20ac"], ["Entre 625000 et 630000 \u20ac"], ["Entre 630000 et 635000 \u20ac"], ["Entre 635000 et 640000 \u20ac"], ["Entre 640000 et 645000 \u20ac"], ["Entre 645000 et 650000 \u20ac"], ["Entre 650000 et 655000 \u20ac"], ["Entre 655000 et 660000 \u20ac"], ["Entre 660000 et 665000 \u20ac"], ["Entre 665000 et 670000 \u20ac"], ["Entre 670000 et 675000 \u20ac"], ["Entre 675000 et 680000 \u20ac"], ["Entre 680000 et 685000 \u20ac"], ["Entre 685000 et 690000 \u20ac"], ["Entre 690000 et 695000 \u20ac"], ["Entre 695000 et 700000 \u20ac"], ["Entre 700000 et 705000 \u20ac"], ["Entre 705000 et 710000 \u20ac"], ["Entre 710000 et 715000 \u20ac"], ["Entre 715000 et 720000 \u20ac"], ["Entre 720000 et 725000 \u20ac"], ["Entre 725000 et 730000 \u20ac"], ["Entre 730000 et 735000 \u20ac"], ["Entre 735000 et 740000 \u20ac"], ["Entre 740000 et 745000 \u20ac"], ["Entre 745000 et 750000 \u20ac"], ["Entre 750000 et 755000 \u20ac"], ["Entre 755000 et 760000 \u20ac"], ["Entre 760000 et 765000 \u20ac"], ["Entre 765000 et 770000 \u20ac"], ["Entre 770000 et 775000 \u20ac"], ["Entre 775000 et 780000 \u20ac"], ["Entre 780000 et 785000 \u20ac"], ["Entre 785000 et 790000 \u20ac"], ["Entre 790000 et 795000 \u20ac"], ["Entre 795000 et 800000 \u20ac"], ["Entre 800000 et 805000 \u20ac"], ["Entre 805000 et 810000 \u20ac"], ["Entre 810000 et 815000 \u20ac"], ["Entre 815000 et 820000 \u20ac"], ["Entre 820000 et 825000 \u20ac"], ["Entre 825000 et 830000 \u20ac"], ["Entre 830000 et 835000 \u20ac"], ["Entre 835000 et 840000 \u20ac"], ["Entre 840000 et 845000 \u20ac"], ["Entre 845000 et 850000 \u20ac"], ["Entre 850000 et 855000 \u20ac"], ["Entre 855000 et 860000 \u20ac"], ["Entre 860000 et 865000 \u20ac"], ["Entre 865000 et 870000 \u20ac"], ["Entre 870000 et 875000 \u20ac"], ["Entre 875000 et 880000 \u20ac"], ["Entre 880000 et 885000 \u20ac"], ["Entre 885000 et 890000 \u20ac"], ["Entre 890000 et 895000 \u20ac"], ["Entre 895000 et 900000 \u20ac"], ["Entre 900000 et 905000 \u20ac"], ["Entre 905000 et 910000 \u20ac"], ["Entre 910000 et 915000 \u20ac"], ["Entre 915000 et 920000 \u20ac"], ["Entre 920000 et 925000 \u20ac"], ["Entre 925000 et 930000 \u20ac"], ["Entre 930000 et 935000 \u20ac"], ["Entre 935000 et 940000 \u20ac"], ["Entre 940000 et 945000 \u20ac"], ["Entre 945000 et 950000 \u20ac"], ["Entre 950000 et 955000 \u20ac"], ["Entre 955000 et 960000 \u20ac"], ["Entre 960000 et 965000 \u20ac"], ["Entre 965000 et 970000 \u20ac"], ["Entre 970000 et 975000 \u20ac"], ["Entre 975000 et 980000 \u20ac"], ["Entre 980000 et 985000 \u20ac"], ["Entre 985000 et 990000 \u20ac"], ["Entre 990000 et 995000 \u20ac"], ["Entre 995000 et 1000000 \u20ac"]], "hovertemplate": "<b>2011</b><br><b>%{customdata[0]}</b><br>Nombre de propri\u00e9taires : %{y}<extra></extra>", "legendgroup": "count_2011", "marker": { "color": "#735D78", "pattern": { "shape": "" } }, "name": "2011", "offsetgroup": "count_2011", "orientation": "v", "showlegend": true, "textposition": "auto", "x": [0, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 65000, 70000, 75000, 80000, 85000, 90000, 95000, 100000, 105000, 110000, 115000, 120000, 125000, 130000, 135000, 140000, 145000, 150000, 155000, 160000, 165000, 170000, 175000, 180000, 185000, 190000, 195000, 200000, 205000, 210000, 215000, 220000, 225000, 230000, 235000, 240000, 245000, 250000, 255000, 260000, 265000, 270000, 275000, 280000, 285000, 290000, 295000, 300000, 305000, 310000, 315000, 320000, 325000, 330000, 335000, 340000, 345000, 350000, 355000, 360000, 365000, 370000, 375000, 380000, 385000, 390000, 395000, 400000, 405000, 410000, 415000, 420000, 425000, 430000, 435000, 440000, 445000, 450000, 455000, 460000, 465000, 470000, 475000, 480000, 485000, 490000, 495000, 500000, 505000, 510000, 515000, 520000, 525000, 530000, 535000, 540000, 545000, 550000, 555000, 560000, 565000, 570000, 575000, 580000, 585000, 590000, 595000, 600000, 605000, 610000, 615000, 620000, 625000, 630000, 635000, 640000, 645000, 650000, 655000, 660000, 665000, 670000, 675000, 680000, 685000, 690000, 695000, 700000, 705000, 710000, 715000, 720000, 725000, 730000, 735000, 740000, 745000, 750000, 755000, 760000, 765000, 770000, 775000, 780000, 785000, 790000, 795000, 800000, 805000, 810000, 815000, 820000, 825000, 830000, 835000, 840000, 845000, 850000, 855000, 860000, 865000, 870000, 875000, 880000, 885000, 890000, 895000, 900000, 905000, 910000, 915000, 920000, 925000, 930000, 935000, 940000, 945000, 950000, 955000, 960000, 965000, 970000, 975000, 980000, 985000, 990000, 995000], "xaxis": "x", "y": [1268, 10835, 62985, 145248, 200067, 250348, 338645, 453093, 582081, 705095, 811781, 890597, 948240, 970236, 964587, 948338, 913142, 872614, 831810, 783992, 740160, 708605, 668099, 635564, 601825, 561756, 529476, 494503, 464803, 435307, 407478, 383745, 361605, 340899, 322085, 303507, 287841, 272806, 257954, 244689, 233312, 220304, 210277, 199626, 190067, 182313, 172808, 164946, 158059, 150741, 144917, 137032, 131257, 126173, 119779, 115589, 110505, 106833, 101196, 97553, 93304, 88776, 85635, 82360, 79054, 75586, 73309, 70701, 68074, 65847, 63020, 60550, 58422, 56500, 54648, 52837, 50772, 48666, 47053, 45940, 44311, 42502, 41255, 39711, 38153, 37183, 36057, 34509, 33651, 32611, 31848, 30672, 30031, 29020, 27887, 26884, 27049, 25548, 24886, 24212, 23386, 22673, 22002, 21716, 20992, 20091, 19812, 19059, 18368, 18039, 17887, 17151, 16823, 16287, 16006, 15271, 14772, 14694, 14183, 13642, 13515, 13166, 12640, 12363, 12024, 11811, 11456, 11208, 10964, 10388, 10311, 10076, 9834, 9699, 9364, 9144, 9012, 8765, 8530, 8270, 8028, 8003, 7873, 7581, 7712, 7314, 6962, 6823, 6763, 6491, 6359, 6373, 6158, 5965, 5941, 5697, 5614, 5583, 5506, 5486, 5224, 5105, 5050, 4828, 4732, 4550, 4623, 4393, 4341, 4344, 4203, 4155, 4092, 3954, 3944, 3814, 3864, 3790, 3560, 3624, 3560, 3379, 3326, 3280, 3151, 3148, 3156, 3014, 2999, 3084, 2939, 2784, 2796, 2705, 2710, 2637, 2573, 2523, 2542, 2410], "yaxis": "y", "type": "bar" }, { "alignmentgroup": "True", "customdata": [["Entre 0 et 5000 \u20ac"], ["Entre 5000 et 10000 \u20ac"], ["Entre 10000 et 15000 \u20ac"], ["Entre 15000 et 20000 \u20ac"], ["Entre 20000 et 25000 \u20ac"], ["Entre 25000 et 30000 \u20ac"], ["Entre 30000 et 35000 \u20ac"], ["Entre 35000 et 40000 \u20ac"], ["Entre 40000 et 45000 \u20ac"], ["Entre 45000 et 50000 \u20ac"], ["Entre 50000 et 55000 \u20ac"], ["Entre 55000 et 60000 \u20ac"], ["Entre 60000 et 65000 \u20ac"], ["Entre 65000 et 70000 \u20ac"], ["Entre 70000 et 75000 \u20ac"], ["Entre 75000 et 80000 \u20ac"], ["Entre 80000 et 85000 \u20ac"], ["Entre 85000 et 90000 \u20ac"], ["Entre 90000 et 95000 \u20ac"], ["Entre 95000 et 100000 \u20ac"], ["Entre 100000 et 105000 \u20ac"], ["Entre 105000 et 110000 \u20ac"], ["Entre 110000 et 115000 \u20ac"], ["Entre 115000 et 120000 \u20ac"], ["Entre 120000 et 125000 \u20ac"], ["Entre 125000 et 130000 \u20ac"], ["Entre 130000 et 135000 \u20ac"], ["Entre 135000 et 140000 \u20ac"], ["Entre 140000 et 145000 \u20ac"], ["Entre 145000 et 150000 \u20ac"], ["Entre 150000 et 155000 \u20ac"], ["Entre 155000 et 160000 \u20ac"], ["Entre 160000 et 165000 \u20ac"], ["Entre 165000 et 170000 \u20ac"], ["Entre 170000 et 175000 \u20ac"], ["Entre 175000 et 180000 \u20ac"], ["Entre 180000 et 185000 \u20ac"], ["Entre 185000 et 190000 \u20ac"], ["Entre 190000 et 195000 \u20ac"], ["Entre 195000 et 200000 \u20ac"], ["Entre 200000 et 205000 \u20ac"], ["Entre 205000 et 210000 \u20ac"], ["Entre 210000 et 215000 \u20ac"], ["Entre 215000 et 220000 \u20ac"], ["Entre 220000 et 225000 \u20ac"], ["Entre 225000 et 230000 \u20ac"], ["Entre 230000 et 235000 \u20ac"], ["Entre 235000 et 240000 \u20ac"], ["Entre 240000 et 245000 \u20ac"], ["Entre 245000 et 250000 \u20ac"], ["Entre 250000 et 255000 \u20ac"], ["Entre 255000 et 260000 \u20ac"], ["Entre 260000 et 265000 \u20ac"], ["Entre 265000 et 270000 \u20ac"], ["Entre 270000 et 275000 \u20ac"], ["Entre 275000 et 280000 \u20ac"], ["Entre 280000 et 285000 \u20ac"], ["Entre 285000 et 290000 \u20ac"], ["Entre 290000 et 295000 \u20ac"], ["Entre 295000 et 300000 \u20ac"], ["Entre 300000 et 305000 \u20ac"], ["Entre 305000 et 310000 \u20ac"], ["Entre 310000 et 315000 \u20ac"], ["Entre 315000 et 320000 \u20ac"], ["Entre 320000 et 325000 \u20ac"], ["Entre 325000 et 330000 \u20ac"], ["Entre 330000 et 335000 \u20ac"], ["Entre 335000 et 340000 \u20ac"], ["Entre 340000 et 345000 \u20ac"], ["Entre 345000 et 350000 \u20ac"], ["Entre 350000 et 355000 \u20ac"], ["Entre 355000 et 360000 \u20ac"], ["Entre 360000 et 365000 \u20ac"], ["Entre 365000 et 370000 \u20ac"], ["Entre 370000 et 375000 \u20ac"], ["Entre 375000 et 380000 \u20ac"], ["Entre 380000 et 385000 \u20ac"], ["Entre 385000 et 390000 \u20ac"], ["Entre 390000 et 395000 \u20ac"], ["Entre 395000 et 400000 \u20ac"], ["Entre 400000 et 405000 \u20ac"], ["Entre 405000 et 410000 \u20ac"], ["Entre 410000 et 415000 \u20ac"], ["Entre 415000 et 420000 \u20ac"], ["Entre 420000 et 425000 \u20ac"], ["Entre 425000 et 430000 \u20ac"], ["Entre 430000 et 435000 \u20ac"], ["Entre 435000 et 440000 \u20ac"], ["Entre 440000 et 445000 \u20ac"], ["Entre 445000 et 450000 \u20ac"], ["Entre 450000 et 455000 \u20ac"], ["Entre 455000 et 460000 \u20ac"], ["Entre 460000 et 465000 \u20ac"], ["Entre 465000 et 470000 \u20ac"], ["Entre 470000 et 475000 \u20ac"], ["Entre 475000 et 480000 \u20ac"], ["Entre 480000 et 485000 \u20ac"], ["Entre 485000 et 490000 \u20ac"], ["Entre 490000 et 495000 \u20ac"], ["Entre 495000 et 500000 \u20ac"], ["Entre 500000 et 505000 \u20ac"], ["Entre 505000 et 510000 \u20ac"], ["Entre 510000 et 515000 \u20ac"], ["Entre 515000 et 520000 \u20ac"], ["Entre 520000 et 525000 \u20ac"], ["Entre 525000 et 530000 \u20ac"], ["Entre 530000 et 535000 \u20ac"], ["Entre 535000 et 540000 \u20ac"], ["Entre 540000 et 545000 \u20ac"], ["Entre 545000 et 550000 \u20ac"], ["Entre 550000 et 555000 \u20ac"], ["Entre 555000 et 560000 \u20ac"], ["Entre 560000 et 565000 \u20ac"], ["Entre 565000 et 570000 \u20ac"], ["Entre 570000 et 575000 \u20ac"], ["Entre 575000 et 580000 \u20ac"], ["Entre 580000 et 585000 \u20ac"], ["Entre 585000 et 590000 \u20ac"], ["Entre 590000 et 595000 \u20ac"], ["Entre 595000 et 600000 \u20ac"], ["Entre 600000 et 605000 \u20ac"], ["Entre 605000 et 610000 \u20ac"], ["Entre 610000 et 615000 \u20ac"], ["Entre 615000 et 620000 \u20ac"], ["Entre 620000 et 625000 \u20ac"], ["Entre 625000 et 630000 \u20ac"], ["Entre 630000 et 635000 \u20ac"], ["Entre 635000 et 640000 \u20ac"], ["Entre 640000 et 645000 \u20ac"], ["Entre 645000 et 650000 \u20ac"], ["Entre 650000 et 655000 \u20ac"], ["Entre 655000 et 660000 \u20ac"], ["Entre 660000 et 665000 \u20ac"], ["Entre 665000 et 670000 \u20ac"], ["Entre 670000 et 675000 \u20ac"], ["Entre 675000 et 680000 \u20ac"], ["Entre 680000 et 685000 \u20ac"], ["Entre 685000 et 690000 \u20ac"], ["Entre 690000 et 695000 \u20ac"], ["Entre 695000 et 700000 \u20ac"], ["Entre 700000 et 705000 \u20ac"], ["Entre 705000 et 710000 \u20ac"], ["Entre 710000 et 715000 \u20ac"], ["Entre 715000 et 720000 \u20ac"], ["Entre 720000 et 725000 \u20ac"], ["Entre 725000 et 730000 \u20ac"], ["Entre 730000 et 735000 \u20ac"], ["Entre 735000 et 740000 \u20ac"], ["Entre 740000 et 745000 \u20ac"], ["Entre 745000 et 750000 \u20ac"], ["Entre 750000 et 755000 \u20ac"], ["Entre 755000 et 760000 \u20ac"], ["Entre 760000 et 765000 \u20ac"], ["Entre 765000 et 770000 \u20ac"], ["Entre 770000 et 775000 \u20ac"], ["Entre 775000 et 780000 \u20ac"], ["Entre 780000 et 785000 \u20ac"], ["Entre 785000 et 790000 \u20ac"], ["Entre 790000 et 795000 \u20ac"], ["Entre 795000 et 800000 \u20ac"], ["Entre 800000 et 805000 \u20ac"], ["Entre 805000 et 810000 \u20ac"], ["Entre 810000 et 815000 \u20ac"], ["Entre 815000 et 820000 \u20ac"], ["Entre 820000 et 825000 \u20ac"], ["Entre 825000 et 830000 \u20ac"], ["Entre 830000 et 835000 \u20ac"], ["Entre 835000 et 840000 \u20ac"], ["Entre 840000 et 845000 \u20ac"], ["Entre 845000 et 850000 \u20ac"], ["Entre 850000 et 855000 \u20ac"], ["Entre 855000 et 860000 \u20ac"], ["Entre 860000 et 865000 \u20ac"], ["Entre 865000 et 870000 \u20ac"], ["Entre 870000 et 875000 \u20ac"], ["Entre 875000 et 880000 \u20ac"], ["Entre 880000 et 885000 \u20ac"], ["Entre 885000 et 890000 \u20ac"], ["Entre 890000 et 895000 \u20ac"], ["Entre 895000 et 900000 \u20ac"], ["Entre 900000 et 905000 \u20ac"], ["Entre 905000 et 910000 \u20ac"], ["Entre 910000 et 915000 \u20ac"], ["Entre 915000 et 920000 \u20ac"], ["Entre 920000 et 925000 \u20ac"], ["Entre 925000 et 930000 \u20ac"], ["Entre 930000 et 935000 \u20ac"], ["Entre 935000 et 940000 \u20ac"], ["Entre 940000 et 945000 \u20ac"], ["Entre 945000 et 950000 \u20ac"], ["Entre 950000 et 955000 \u20ac"], ["Entre 955000 et 960000 \u20ac"], ["Entre 960000 et 965000 \u20ac"], ["Entre 965000 et 970000 \u20ac"], ["Entre 970000 et 975000 \u20ac"], ["Entre 975000 et 980000 \u20ac"], ["Entre 980000 et 985000 \u20ac"], ["Entre 985000 et 990000 \u20ac"], ["Entre 990000 et 995000 \u20ac"], ["Entre 995000 et 1000000 \u20ac"]], "hovertemplate": "<b>2019</b><br><b>%{customdata[0]}</b><br>Nombre de propri\u00e9taires : %{y}<extra></extra>", "legendgroup": "count_2019", "marker": { "color": "#B392AC", "pattern": { "shape": "" } }, "name": "2019", "offsetgroup": "count_2019", "orientation": "v", "showlegend": true, "textposition": "auto", "x": [0, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 65000, 70000, 75000, 80000, 85000, 90000, 95000, 100000, 105000, 110000, 115000, 120000, 125000, 130000, 135000, 140000, 145000, 150000, 155000, 160000, 165000, 170000, 175000, 180000, 185000, 190000, 195000, 200000, 205000, 210000, 215000, 220000, 225000, 230000, 235000, 240000, 245000, 250000, 255000, 260000, 265000, 270000, 275000, 280000, 285000, 290000, 295000, 300000, 305000, 310000, 315000, 320000, 325000, 330000, 335000, 340000, 345000, 350000, 355000, 360000, 365000, 370000, 375000, 380000, 385000, 390000, 395000, 400000, 405000, 410000, 415000, 420000, 425000, 430000, 435000, 440000, 445000, 450000, 455000, 460000, 465000, 470000, 475000, 480000, 485000, 490000, 495000, 500000, 505000, 510000, 515000, 520000, 525000, 530000, 535000, 540000, 545000, 550000, 555000, 560000, 565000, 570000, 575000, 580000, 585000, 590000, 595000, 600000, 605000, 610000, 615000, 620000, 625000, 630000, 635000, 640000, 645000, 650000, 655000, 660000, 665000, 670000, 675000, 680000, 685000, 690000, 695000, 700000, 705000, 710000, 715000, 720000, 725000, 730000, 735000, 740000, 745000, 750000, 755000, 760000, 765000, 770000, 775000, 780000, 785000, 790000, 795000, 800000, 805000, 810000, 815000, 820000, 825000, 830000, 835000, 840000, 845000, 850000, 855000, 860000, 865000, 870000, 875000, 880000, 885000, 890000, 895000, 900000, 905000, 910000, 915000, 920000, 925000, 930000, 935000, 940000, 945000, 950000, 955000, 960000, 965000, 970000, 975000, 980000, 985000, 990000, 995000], "xaxis": "x", "y": [1795, 14234, 64741, 132913, 181448, 239051, 329437, 446479, 573727, 687534, 779368, 853266, 904856, 933117, 936804, 929139, 913414, 881194, 844030, 803072, 765223, 729982, 693028, 657115, 628107, 592577, 563433, 530661, 496801, 470607, 444442, 418978, 395798, 373843, 354647, 336928, 316424, 301462, 286486, 271560, 258630, 245804, 235995, 224853, 214204, 203848, 195428, 187046, 178702, 171029, 162894, 157266, 150535, 144603, 138400, 133627, 126937, 122247, 116889, 112638, 108043, 104406, 100145, 96604, 93282, 89634, 85901, 83267, 80477, 77456, 74684, 71951, 69311, 67254, 64588, 62077, 61012, 58657, 56767, 54666, 53025, 50682, 50116, 48338, 46878, 45241, 43901, 42611, 41371, 40038, 39144, 37615, 36401, 35443, 34635, 33381, 32351, 31379, 30824, 29867, 29254, 28474, 27483, 26919, 25869, 25088, 24522, 23794, 23203, 22805, 22069, 21507, 21153, 20486, 19819, 19201, 19045, 18755, 18071, 17775, 17351, 16837, 16313, 16193, 15479, 15221, 14969, 14680, 14231, 13826, 13740, 13267, 12700, 12366, 12092, 12165, 11731, 11532, 11177, 10823, 10663, 10558, 10247, 9909, 9883, 9500, 9267, 9182, 9001, 8598, 8377, 8426, 8299, 7886, 8025, 7528, 7432, 7329, 7205, 7085, 6851, 6518, 6702, 6569, 6328, 6132, 6056, 5907, 5768, 5700, 5541, 5447, 5442, 5377, 5235, 5103, 4989, 4981, 4809, 4790, 4642, 4560, 4506, 4303, 4118, 4179, 4040, 4163, 3890, 3985, 3879, 3927, 3686, 3762, 3532, 3482, 3503, 3384, 3321, 3401], "yaxis": "y", "type": "bar" }], { "template": { "data": { "histogram2dcontour": [{ "type": "histogram2dcontour", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "choropleth": [{ "type": "choropleth", "colorbar": { "outlinewidth": 0, "ticks": "" } }], "histogram2d": [{ "type": "histogram2d", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "heatmap": [{ "type": "heatmap", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "heatmapgl": [{ "type": "heatmapgl", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "contourcarpet": [{ "type": "contourcarpet", "colorbar": { "outlinewidth": 0, "ticks": "" } }], "contour": [{ "type": "contour", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "surface": [{ "type": "surface", "colorbar": { "outlinewidth": 0, "ticks": "" }, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]] }], "mesh3d": [{ "type": "mesh3d", "colorbar": { "outlinewidth": 0, "ticks": "" } }], "scatter": [{ "fillpattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 }, "type": "scatter" }], "parcoords": [{ "type": "parcoords", "line": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatterpolargl": [{ "type": "scatterpolargl", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "bar": [{ "error_x": { "color": "#2a3f5f" }, "error_y": { "color": "#2a3f5f" }, "marker": { "line": { "color": "#E5ECF6", "width": 0.5 }, "pattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 } }, "type": "bar" }], "scattergeo": [{ "type": "scattergeo", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatterpolar": [{ "type": "scatterpolar", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "histogram": [{ "marker": { "pattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 } }, "type": "histogram" }], "scattergl": [{ "type": "scattergl", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatter3d": [{ "type": "scatter3d", "line": { "colorbar": { "outlinewidth": 0, "ticks": "" } }, "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scattermapbox": [{ "type": "scattermapbox", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scatterternary": [{ "type": "scatterternary", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "scattercarpet": [{ "type": "scattercarpet", "marker": { "colorbar": { "outlinewidth": 0, "ticks": "" } } }], "carpet": [{ "aaxis": { "endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f" }, "baxis": { "endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f" }, "type": "carpet" }], "table": [{ "cells": { "fill": { "color": "#EBF0F8" }, "line": { "color": "white" } }, "header": { "fill": { "color": "#C8D4E3" }, "line": { "color": "white" } }, "type": "table" }], "barpolar": [{ "marker": { "line": { "color": "#E5ECF6", "width": 0.5 }, "pattern": { "fillmode": "overlay", "size": 10, "solidity": 0.2 } }, "type": "barpolar" }], "pie": [{ "automargin": true, "type": "pie" }] }, "layout": { "autotypenumbers": "strict", "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": { "color": "#2a3f5f" }, "hovermode": "closest", "hoverlabel": { "align": "left" }, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": { "bgcolor": "#E5ECF6", "angularaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" }, "radialaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" } }, "ternary": { "bgcolor": "#E5ECF6", "aaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" }, "baxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" }, "caxis": { "gridcolor": "white", "linecolor": "white", "ticks": "" } }, "coloraxis": { "colorbar": { "outlinewidth": 0, "ticks": "" } }, "colorscale": { "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]] }, "xaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "", "title": { "standoff": 15 }, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2 }, "yaxis": { "gridcolor": "white", "linecolor": "white", "ticks": "", "title": { "standoff": 15 }, "zerolinecolor": "white", "automargin": true, "zerolinewidth": 2 }, "scene": { "xaxis": { "backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2 }, "yaxis": { "backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2 }, "zaxis": { "backgroundcolor": "#E5ECF6", "gridcolor": "white", "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white", "gridwidth": 2 } }, "shapedefaults": { "line": { "color": "#2a3f5f" } }, "annotationdefaults": { "arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1 }, "geo": { "bgcolor": "white", "landcolor": "#E5ECF6", "subunitcolor": "white", "showland": true, "showlakes": true, "lakecolor": "white" }, "title": { "x": 0.05 }, "mapbox": { "style": "light" } } }, "xaxis": { "anchor": "y", "domain": [0.0, 1.0], "title": { "text": "Valeur estim\u00e9e (\u20ac)" }, "type": "category" }, "yaxis": { "anchor": "x", "domain": [0.0, 1.0], "title": { "text": "Nombre" } }, "legend": { "title": { "text": "Ann\u00e9e" }, "tracegroupgap": 0 }, "title": { "text": "Histogramme de l'estimation du patrimoine immobilier des Fran\u00e7ais, jusqu'\u00e0 1M \u20ac<br>(donn\u00e9es 2019, France m\u00e9tropolitaine hors Alsace et Moselle)" }, "barmode": "group" }, { "responsive": true }) };                            </script>
+                </div>
+                <p class="interpretation">Interprétation : en 2011, 322 085 propriétaires physiques possédaient un
+                    patrimoine dont la valeur
+                    estimée était comprise entre 170 000 et 175 000 €. En 2019, ils étaient 354 647.</p>
+            </div>
+        </div>
+    </div>
+    <script src="/valo_these_remi_ghpages/static/valorisation/js/map_helpers.js"></script>
+    <script src="/valo_these_remi_ghpages/static/valorisation/js/allData.js"></script>
+    <script src="/valo_these_remi_ghpages/static/valorisation/js/19_value.js"></script>
+    <script src="/valo_these_remi_ghpages/static/valorisation/js/20_growthrate.js"></script>
+
+    <!-- pied de page avec logo opérateur -->
+    <footer class="fr-footer" role="contentinfo" id="footer">
+        <div class="fr-container">
+            <div class="fr-footer__body">
+                <div class="fr-footer__brand fr-enlarge-link">
+                    <a href="/valo_these_remi_ghpages/"
+                        title="Retour à l’accueil du site - Base de données propriétaires - République Française">
+                        <p class="fr-logo">
+                            République
+                            <br>Française
+                        </p>
+                    </a>
+                </div>
+                <div class="fr-footer__content">
+                    <p class="fr-footer__content-desc">Ce portail a vocation à valoriser une nouvelle base de données
+                        issue des données foncières, créée dans le cadre du travail doctoral de Rémi Lei, encadré par
+                        Julie Le
+                        Gallo (Professeure d'économie, CESAER, Institut Agro Dijon), Jean-Sauveur Ay (Chercheur à
+                        l'INRAE, UMR
+                        CESAER, Dijon) et Olivier Dupré (Chef du groupe Connaissance du Foncier et de ses Usages au
+                        Cerema
+                        Hauts-de-France, Lille).</p>
+                    <ul class="fr-footer__content-list">
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" target="_blank"
+                                href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
+                        </li>
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" target="_blank"
+                                href="https://gouvernement.fr">gouvernement.fr</a>
+                        </li>
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" target="_blank"
+                                href="https://service-public.fr">service-public.fr</a>
+                        </li>
+                        <li class="fr-footer__content-item">
+                            <a class="fr-footer__content-link" target="_blank"
+                                href="https://data.gouv.fr">data.gouv.fr</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fr-footer__partners">
+                <h4 class="fr-footer__partners-title">Nos partenaires</h4>
+                <div class="fr-footer__partners-logos">
+                    <div class="fr-footer__partners-main">
+                        <a class="fr-footer__partners-link" href="https://www.cerema.fr/fr">
+                            <img class="fr-footer__logo" style="height: 5.625rem"
+                                src="/valo_these_remi_ghpages/static/valorisation/img/cerema.svg"
+                                alt="Cerema - Climat & Territoires de demain" />
+                        </a>
+                    </div>
+                    <div class="fr-footer__partners-sub">
+                        <ul>
+                            <li>
+                                <a class="fr-footer__partners-link" href="https://www2.dijon.inrae.fr/cesaer/">
+                                    <img class="fr-footer__logo" style="height: 5.625rem"
+                                        src="https://msh-dijon.u-bourgogne.fr/wp-content/uploads/2018/06/cesaer.jpg"
+                                        alt="CESAER" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-footer__bottom">
+                <ul class="fr-footer__bottom-list">
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link"
+                            href="/valo_these_remi_ghpages/accessibilite.html">Accessibilité :
+                            non conforme</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="/valo_these_remi_ghpages/mentions-legales.html">Mentions
+                            légales</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <a class="fr-footer__bottom-link" href="/valo_these_remi_ghpages/gestion-cookies.html">Gestion
+                            des cookies</a>
+                    </li>
+                    <li class="fr-footer__bottom-item">
+                        <button class="fr-footer__bottom-link fr-fi-theme-fill fr-link--icon-left"
+                            aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>
+                    </li>
+                </ul>
+                <div class="fr-footer__bottom-copy">
+                    <p>Sauf mention contraire, tous les contenus de ce site sont sous <a
+                            href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence
+                            etalab-2.0</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <dialog id="fr-theme-modal" class="fr-modal" role="dialog" aria-labelledby="fr-theme-modal-title">
+        <div class="fr-container fr-container--fluid fr-container-md">
+            <div class="fr-grid-row fr-grid-row--center">
+                <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
+                    <div class="fr-modal__body">
+                        <div class="fr-modal__header"> <button class="fr-btn--close fr-btn"
+                                aria-controls="fr-theme-modal" title="Fermer"> Fermer </button> </div>
+                        <div class="fr-modal__content">
+                            <h1 id="fr-theme-modal-title" class="fr-modal__title"> Paramètres d’affichage </h1>
+                            <div id="fr-display" class="fr-display">
+                                <div class="fr-form-group">
+                                    <fieldset class="fr-fieldset">
+                                        <legend class="fr-fieldset__legend fr-text--regular" id='-legend'> Choisissez un
+                                            thème pour personnaliser l’apparence du site. </legend>
+                                        <div class="fr-fieldset__content">
+                                            <div class="fr-radio-group fr-radio-rich"> <input value="light" type="radio"
+                                                    id="fr-radios-theme-light" name="fr-radios-theme"> <label
+                                                    class="fr-label" for="fr-radios-theme-light"> Thème clair </label>
+                                                <div class="fr-radio-rich__img"> <svg xmlns="http://www.w3.org/2000/svg"
+                                                        class="fr-artwork" width="80px" height="80px"
+                                                        viewBox="0 0 80 80">
+                                                        <use class="fr-artwork-decorative"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/light.svg#artwork-decorative">
+                                                        </use>
+                                                        <use class="fr-artwork-minor"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/light.svg#artwork-minor">
+                                                        </use>
+                                                        <use class="fr-artwork-major"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/light.svg#artwork-major">
+                                                        </use>
+                                                    </svg> </div>
+                                            </div>
+                                            <div class="fr-radio-group fr-radio-rich"> <input value="dark" type="radio"
+                                                    id="fr-radios-theme-dark" name="fr-radios-theme"> <label
+                                                    class="fr-label" for="fr-radios-theme-dark"> Thème sombre </label>
+                                                <div class="fr-radio-rich__img"> <svg xmlns="http://www.w3.org/2000/svg"
+                                                        class="fr-artwork" width="80px" height="80px"
+                                                        viewBox="0 0 80 80">
+                                                        <use class="fr-artwork-decorative"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/dark.svg#artwork-decorative">
+                                                        </use>
+                                                        <use class="fr-artwork-minor"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/dark.svg#artwork-minor">
+                                                        </use>
+                                                        <use class="fr-artwork-major"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/dark.svg#artwork-major">
+                                                        </use>
+                                                    </svg> </div>
+                                            </div>
+                                            <div class="fr-radio-group fr-radio-rich"> <input value="system"
+                                                    type="radio" id="fr-radios-theme-system" name="fr-radios-theme">
+                                                <label class="fr-label" for="fr-radios-theme-system"> Système <span
+                                                        class="fr-hint-text">Utilise les paramètres système.</span>
+                                                </label>
+                                                <div class="fr-radio-rich__img"> <svg xmlns="http://www.w3.org/2000/svg"
+                                                        class="fr-artwork" width="80px" height="80px"
+                                                        viewBox="0 0 80 80">
+                                                        <use class="fr-artwork-decorative"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/system.svg#artwork-decorative">
+                                                        </use>
+                                                        <use class="fr-artwork-minor"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/system.svg#artwork-minor">
+                                                        </use>
+                                                        <use class="fr-artwork-major"
+                                                            href="/valo_these_remi_ghpages/static/valorisation/dsfr/artwork/system.svg#artwork-major">
+                                                        </use>
+                                                    </svg> </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
+    <script type="module" src="/valo_these_remi_ghpages/static/valorisation/dsfr/dsfr.module.min.js"></script>
+    <script type="text/javascript" nomodule
+        src="/valo_these_remi_ghpages/static/valorisation/dsfr/dsfr.nomodule.min.js"></script>
+</body>
+
+
+</html>

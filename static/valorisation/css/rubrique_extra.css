@@ -1,0 +1,5 @@
+/* Insertion d'une marge entre les graphes et le texte d'interprétation */
+
+.interpretation {
+    margin-top: 10px;
+}
