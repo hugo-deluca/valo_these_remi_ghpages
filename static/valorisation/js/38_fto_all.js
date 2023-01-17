@@ -63,7 +63,7 @@ var legendFtoComm = L.control({ position: 'bottomleft' });
 legendFtoComm.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 5, 15, 25, 35, 45, 55, 70, 85];
+        grades = [0, 10, 25, 30, 37, 43, 48, 55, 62];
     labels = [];
     var nullColor = '#e0e0e0'
     div.innerHTML = '<b>Légende</b><br />Taux de primo-accédants (%)<br /><br />'
@@ -125,7 +125,7 @@ infoFtoComm.addTo(ftoComm);
 function getColorFtoComm(d) {
     var palette = ['#fcfbfd', '#efedf5', '#dadaeb', '#bcbddc', '#9e9ac8', '#807dba', '#6a51a3', '#54278f', '#3f007d'];
     var nullColor = '#e0e0e0';
-    var jenksBreaks = [5, 15, 25, 35, 45, 55, 70, 85];
+    var jenksBreaks = [10, 25, 30, 37, 43, 48, 55, 62];
     if (d == null) { return nullColor };
     return d > jenksBreaks[7] ? palette[8] :
         d > jenksBreaks[6] ? palette[7] :

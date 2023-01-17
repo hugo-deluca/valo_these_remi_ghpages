@@ -73,7 +73,7 @@ legendValue.onAdd = function (map) {
     for (var i = 0; i < grades.length; i++) {
         div.innerHTML +=
             '<i style="background:' + getColorValue(grades[i] + 0.01) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? ' &ndash; ' + grades[i + 1] + '<br>' : ' et +');
+            numberWithSeparators(grades[i]) + (numberWithSeparators(grades[i + 1]) ? ' &ndash; ' + numberWithSeparators(grades[i + 1]) + '<br>' : ' et +');
     }
     div.innerHTML += '<br /><i style="background:' + nullColor + '"></i> Pas d\'information'
 
