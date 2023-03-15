@@ -1,0 +1,9 @@
+/* Tous les textes sont justifiés (sauf sur homepage) */
+p:not(.carousel-text) {
+    text-align: justify;
+}
+
+/* Insertion d'une marge entre les graphes et le texte d'interprétation */
+.interpretation {
+    margin-top: 10px;
+}

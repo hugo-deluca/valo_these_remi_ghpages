@@ -7,6 +7,8 @@
     <!-- CSS DSFR -->
     <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/dsfr/dsfr.min.css">
     <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/dsfr/utility.min.css">
+    <!-- CSS extra perso -->
+    <link rel="stylesheet" href="/valo_these_remi_ghpages/static/valorisation/css/css_extra.css">
     <!-- icon Gouvernement -->
     <link rel=" apple-touch-icon" href="/valo_these_remi_ghpages/static/valorisation/favicon/apple-touch-icon.png">
     <!-- 180×180 -->
@@ -183,7 +185,118 @@
         <div class="fr-grid-row">
             <div class="fr-col">
                 <h1 id="contenu">Identification des transferts non onéreux</h1>
-                <p>Cette partie est en cours de construction.</p>
+                <p>Cette section détaille les principaux choix méthodologiques réalisés afin de distinguer parmi les
+                    changements de propriétaires sur la période 2011–2019, les transferts intergénérationnels des ventes
+                    conclues à titre onéreux.</p>
+                <p>Mettant à profit la dimension longitudinale, nous identifions les changements de propriétaires
+                    observés
+                    dans les Fichiers Fonciers annuellement. Nous faisons l’hypothèse qu’un changement de propriétaire
+                    résulte :
+                <ul>
+                    <li>soit d’une transaction immobilière conclue à titre onéreux,</li>
+                    <li>soit d’une donation ou legs.</li>
+                </ul>
+                </p>
+                <p>Dans le premier cas, le changement de propriétaire est enregistré dans <a
+                        href="https://datafoncier.cerema.fr/dv3f" title="La donnée DV3F | Datafoncier (nouvel onglet)"
+                        rel="noopener" target="_blank">la base DVF</a>, mais ne l'est pas
+                    dans le second. Nous
+                    identifions indirectement les transferts intergénérationnels comme les logements faisant l’objet
+                    d’un
+                    changement de propriétaire sans qu’aucune transaction ne soit conclue.</p>
+                <h2>Exploitation de DVF</h2>
+                <p>Nous exploitons l’exhaustivité de la base DVF pour les transactions immobilières. Afin de conserver
+                    l’exhaustivité (nécessaire en raison de la nature de la méthode), nous n’appliquons <b>aucun</b>
+                    filtre. Ainsi, toutes les transactions immobilières conclues depuis 2010 constituent notre base de
+                    transactions. Naturellement, la méthode est inopérante pour l’Alsace-Moselle du fait de l’absence de
+                    données pour ce périmètre.</p>
+                <p>Toutefois, notre approche séquentielle des Fichiers Fonciers ne permet d’isoler que les changements
+                    de
+                    propriétaires <b>entre</b> le 1er janvier N+1 et le 1er janvier N. En conséquence, nous
+                    simplifions la base de données des transactions en indiquant si le logement (repéré par son
+                    identifiant
+                    local) a été vendu entre le 1er janvier N et le 1er janvier N+1. Nous garantissons une comparabilité
+                    entre
+                    les deux sources de données, bien que cette simplification ait des conséquences sur l’identification
+                    des
+                    transferts.</p>
+                <div class="fr-highlight">
+                    <p class="fr-text">Du fait du caractère séquentiel et de la simplification opérée, nous ne pouvons
+                        pas identifier les transferts intergénérationnels ayant lieu la même année qu’une transaction
+                        immobilière.</p>
+                </div>
+                <p>En imposant une égalité stricte sur l’année de changement et l’identifiant local, les résultats ne
+                    sont pas satisfaisants. En effet, plus de 10 % des transactions entre personnes physiques ne font
+                    l’objet d’aucun changement de propriétaires dans les Fichiers Fonciers. En analysant la structure
+                    des erreurs, nous remarquons que les transactions immobilières de fin d’année ont un taux d’erreur
+                    bien supérieur.</p>
+            </div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col"></div>
+            <div class="fr-col">
+                <img src="/valo_these_remi_ghpages/static/valorisation/img/transfers-a.png" width="538" height="384"
+                    alt="Part des transactions marché en fonction de l'année et du mois">
+            </div>
+            <div class="fr-col"></div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <p>Nous interprétons ces résultats par un manque d’actualisation dans les données foncières. Nous
+                    choisissons de relâcher l’hypothèse stricte concernant l’égalité dans les années de changement de
+                    propriétaire. Ainsi, le changement de propriétaire dans les Fichiers Fonciers doit survenir la même
+                    année que la transaction immobilière ou l’année suivante. Ainsi, le taux d’erreur sous cette
+                    hypothèse restrictive supprime l’effet de spécification interne et diminue le taux de transactions
+                    non appairées à 0,8 %.</p>
+            </div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col"></div>
+            <div class="fr-col">
+                <img src="/valo_these_remi_ghpages/static/valorisation/img/transfers-b.png" width="538" height="384"
+                    alt="Part des transactions marché en fonction de l'année et du mois après correction">
+            </div>
+            <div class="fr-col"></div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <p>Nous dressons des explications possibles quant à ces erreurs restantes :
+                <ul>
+                    <li>transactions à propos de l’usufruit (non prises en compte dans notre retraitement des
+                        Fichiers
+                        Fonciers),</li>
+                    <li>transactions en viager – nous ne savons pas comment ces transactions sont répercutées
+                        fiscalement,</li>
+                    <li>rachat de part de logements entre les propriétaires existants (transactions sans changement
+                        de
+                        propriétaires dans les Fichiers Fonciers).</li>
+                </ul>
+                </p>
+                <p>Les résultats comparant le profil d’âge des transactions immobilières et des changements de
+                    propriétaires sont conformes à l’intuition. Alors que la répartition entre les profils d’âge est
+                    plutôt homogène (bien que des échanges préférentiels soient observés), la majorité des
+                    transferts se situe à proximité de la droite symbolisant 27 ans de différence entre le donneur
+                    et
+                    le bénéficiaire.</p>
+            </div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col"></div>
+            <div class="fr-col">
+                <img src="/valo_these_remi_ghpages/static/valorisation/img/transfers-c.png" width="538" height="384"
+                    alt="Volumes de transferts et de vente en fonction des âges du nouveau et de l'ancien propriétaire.">
+            </div>
+            <div class="fr-col"></div>
+        </div>
+        <div class="fr-grid-row">
+            <div class="fr-col">
+                <p>La méthode appliquée semble donc opérante pour identifier les transferts intergénérationnels à
+                    partir
+                    des Fichiers Fonciers. Toutefois, du fait des hypothèses, il est probable que nous les
+                    sous-estimions. En effet, nous ne pouvons pas identifier les dons et legs
+                    lorsque le logement est vendu la même année ou l’année suivante. Ainsi, si un logement est donné
+                    et
+                    vendu dans un laps de temps réduit, l’identification proposée ne dénombre pas le transfert.</p>
             </div>
         </div>
     </div>
